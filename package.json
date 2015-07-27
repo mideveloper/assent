@@ -1,0 +1,42 @@
+{
+  "name": "assent",
+  "version": "0.0.1",
+  "description": "Validation Library",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mideveloper/assent.git"
+  },
+  "author": {
+    "name": "mideveloper"
+  },
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mideveloper/assent/issues"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "lodash": "^3.10.0",
+    "goof" : "git+https://github.com/mideveloper/goof.git"
+  },
+  "devDependencies": {
+    "grunt-cli": "*",
+    "grunt": "*",
+    "mocha": "*",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.8.0",
+    "sinon": "~1.7.3",
+    "supertest": "~0.8.2",
+    "chai": "~1.8.1",
+    "chai-as-promised": "~4.1.0",
+    "grunt-mocha-test": "~0.8.1",
+    "jshint-stylish": "~0.1.5",
+    "grunt-newer": "~0.6.1",
+    "load-grunt-tasks": "~0.3.0",
+    "time-grunt": "~0.2.9",
+    "grunt-concurrent": "~0.4.3"
+  }
+}
