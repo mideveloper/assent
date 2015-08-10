@@ -1,6 +1,6 @@
 {
   "name": "assent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Validation Library",
   "main": "./lib/index.js",
   "scripts": {
