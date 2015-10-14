@@ -99,10 +99,9 @@ describe("Validations", function() {
                 "lat": 90
             };
 
-            return get(params).then(function(error) {
-
+            return get(params).then(function() {
+            }).catch(function(error) {
                 expect(error).to.be.exist;
-
             });
 
         });
