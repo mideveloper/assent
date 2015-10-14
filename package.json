@@ -1,6 +1,6 @@
 {
   "name": "assent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Validation Library",
   "main": "./lib/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "dependencies": {
     "bluebird": "^2.9.34",
     "lodash": "^3.10.0",
-    "goof" : "git+https://github.com/mideveloper/goof.git"
+    "goof" : "0.0.1"
   },
   "devDependencies": {
     "grunt-cli": "*",
