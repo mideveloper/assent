@@ -99,10 +99,9 @@ describe("Validations", function() {
                 "lat": 90
             };
 
-            return get(params).then(function(error) {
-
+            return get(params).then(function() {
+            }).catch(function(error) {
                 expect(error).to.be.exist;
-
             });
 
         });
@@ -132,7 +131,6 @@ describe("Validations", function() {
             };
 
             return get(params).then(function() {
-                expect(false).to.be.true;
             }).done(null, function(error) {
                 console.log("validation err: " + error);
                 expect(error).to.be.exist;
@@ -148,7 +146,6 @@ describe("Validations", function() {
             };
 
             return get(params).then(function() {
-                expect(false).to.be.true;
             }).done(null, function(error) {
                 console.log("validation err: " + error);
                 expect(error).to.be.exist;
@@ -165,7 +162,6 @@ describe("Validations", function() {
             };
 
             return get(params).then(function() {
-                expect(false).to.be.true;
             }).done(null, function(error) {
                 console.log("validation err: " + error);
                 expect(error).to.be.exist;
@@ -182,7 +178,6 @@ describe("Validations", function() {
             };
 
             return get(params).then(function() {
-                expect(false).to.be.true;
             }).done(null, function(error) {
                 console.log("validation err: " + error);
                 expect(error).to.be.exist;
@@ -200,7 +195,6 @@ describe("Validations", function() {
             };
 
             return get(params).then(function() {
-                expect(false).to.be.true;
             }).done(null, function(error) {
                 console.log("validation err: " + error);
                 expect(error).to.be.exist;
